@@ -1,4 +1,4 @@
-package FundementalsOfJava;
+package FundamentalsOfJava;
 
 public class FundamentalsTwo {
     public static void main(String[] args) {

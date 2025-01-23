@@ -22,6 +22,9 @@ public class Literals {
         char ch = 98;
         System.out.println(ch);
 
+        double d = 1e-8;
+        System.out.println(d);
+
         char unicode = '\u0394';
         System.out.println(unicode);
     }

@@ -64,5 +64,7 @@ public class Operators {
         System.out.println( -4 >> 1);  //4
         System.out.println( -4 >>> 1); //2nd laggest number (2147483646)
         System.out.println(Integer.MAX_VALUE); // 2147483647 largest number
+
+        System.out.println(-5 << 1);
     }
 }

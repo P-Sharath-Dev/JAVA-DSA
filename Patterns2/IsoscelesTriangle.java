@@ -7,7 +7,7 @@ public class IsoscelesTriangle {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         //         1 
-        //       1 2 1     // n = 1
+        //       1 2 1     // n = 4    
         //     1 2 3 2 1 
         //   1 2 3 4 3 2 1 
         for (int i = 1; i <= n; i++) { // rows

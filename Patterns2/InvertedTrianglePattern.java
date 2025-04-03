@@ -23,10 +23,10 @@ public class InvertedTrianglePattern {
         }
 
         System.out.println("another pattern");
-        // * * * *
-        // * * *
-        // * *
-        // *
+        // 4 4 4 4
+        // 3 3 3     // n = 5;
+        // 2 2
+        // 1
         // int temp = n;
         // for (int i = 1; i <= n; i++) {
             

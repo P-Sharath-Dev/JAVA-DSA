@@ -56,6 +56,21 @@ public class MemoryAllocation {
         ch[1] = 's';
         System.out.println(ch);
         System.out.println(ch.toString());
+
+        //StringBuffer
+
+        StringBuffer sb = new StringBuffer("Java");
+        System.out.println("sb : " + sb);
+        System.out.println("sb capacity: " + sb.capacity());
+        System.out.println("sb hashcode : " + System.identityHashCode(sb));
+        
+        sb.append(" is fun");
+        System.out.println("modified sb : " + sb);
+        System.out.println("sb hashcode after modify: " + System.identityHashCode(sb));
+
+        StringBuffer sbEmpty = new StringBuffer(); // default capacity is 16 characters
+        System.out.println("sbEmpty capicaty : " + sbEmpty.capacity());
+
     
     }    
 }
